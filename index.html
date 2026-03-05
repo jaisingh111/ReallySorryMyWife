@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>I'm Sorry ❤️</title>
+
+<style>
+:root{
+  --bg1:#fff1f2;
+  --bg2:#ffe4e6;
+  --accent:#fb7185;
+  --accent2:#f472b6;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:linear-gradient(135deg,var(--bg1),var(--bg2));
+  color:#111;
+  overflow-y:auto;
+  padding: 24px 18px;
+}
+
+/* floating emoji layer */
+#float-layer{
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  overflow:hidden;
+  z-index:0;
+}
+
+.float{
+  position:absolute;
+  bottom:-50px;
+  animation: floatUp linear infinite;
+  opacity:.35;
+}
+
+@keyframes floatUp{
+  0%{transform:translateY(0)}
+  100%{transform:translateY(-120vh)}
+}
+
+/* Center card */
+.container{
+  max-width:980px;
+  margin: 0 auto;
+  padding:30px;
+  background:white;
+  border-radius:20px;
+  box-shadow:0 10px 40px rgba(0,0,0,0.08);
+  position:relative;
+  z-index:1;
+}
+
+.badge{
+  background:#fff0f3;
+  padding:8px 14px;
+  border-radius:20px;
+  display:inline-block;
+  font-size:13px;
+}
+
+/* Slideshows next to title */
+.headerRow{
+  display:grid;
+  grid-template-columns: 180px 1fr 180px;
+  gap: 18px;
+  align-items:center;
+  margin-top: 18px;
+}
+
+.hero{
+  text-align:center;
+}
+
+.hero h1{
+  font-size:42px;
+  margin:10px 0;
+}
+
+.hero p{
+  font-size:16px;
+  color:#444;
+  margin: 0;
+}
+
+.miniFrame{
+  width: 100%;
+  height: 170px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.65);
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  overflow:hidden;
+  position:relative;
+}
+
+.miniFrame .label{
+  position:absolute;
+  left: 10px;
+  top: 10px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.85);
+  border: 1px solid rgba(0,0,0,0.06);
+  font-size: 12px;
+  color:#374151;
+  z-index:2;
+}
+
+.miniFrame img{
+  width:100%;
+  height:100%;
+  object-fit: contain; /* makes every photo fit in */
+  background: rgba(255, 228, 230, 0.55);
+  display:block;
+  opacity:1;
+  transition: opacity .55s ease;
+}
+
+/* Text */
+.text{
+  margin-top:22px;
+  font-size:14px;
+  line-height:1.6;
+}
+
+.section{
+  margin-top:30px;
+}
+.section h2{
+  font-size:18px;
+}
+ul{
+  font-size:14px;
+  line-height:1.6;
+}
+
+/* Mobile */
+@media (max-width: 860px){
+  .headerRow{ grid-template-columns: 1fr; }
+  .miniFrame{ height: 220px; }
+}
+</style>
+</head>
+
+<body>
+
+<div id="float-layer"></div>
+
+<div class="container">
+
+  <div class="badge">💗 For my favourite person</div>
+
+  <div class="headerRow">
+    <div class="miniFrame" aria-label="Left photo slideshow">
+      <div class="label">💗 Photos</div>
+      <img id="leftSlide" src="photos/left/left-1.jpg" alt="Left slideshow photo">
+    </div>
+
+    <div class="hero">
+      <h1>I'm sorry 💗</h1>
+      <p>I hurt you, and I take responsibility.</p>
+    </div>
+
+    <div class="miniFrame" aria-label="Right photo slideshow">
+      <div class="label">💍 Photos</div>
+      <img id="rightSlide" src="photos/right/right-1.png" alt="Right slideshow photo">
+    </div>
+  </div>
+
+  <div class="text">
+    <p><b>My beautiful Wife,</b></p>
+
+    <p>
+    I made a mistake, a mistake that will take a long time to come back from and you have every right. What I said was wrong of me and I deserve to be punished from it because I should of never said that. I came into your life to make it easier and less stress and I feel as if I have made it harder for you. I am honestly deeply really sorry with my whole heart if I could come over today I would and I would touch your feet and ask for forgives.
+    </p>
+
+    <p>
+    It's been a tricky almost 3 weeks of doing LDR and this is hard and I am struggle a lot, I am trying my best and I am doing as much as I can to make everything feel easier but I know right now I am not. I know hurt you and I know I upset you and all i can say is I'm sorry and I hope you forgive me.
+    </p>
+
+    <p>
+    I know it will take some time to earn back the trust and for you to tell me everything and anything from the smallest of things to the biggest of things but I am willing to put in the work and to get it back.
+    </p>
+
+    <p>
+    I miss you so much I wish I could travel back in time and take it back because it was wrong of me I have no excuses it's my fault I am to blame for this I am truly deeply sorry with my whole heart and soul. ❤️❤️
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Promise's I am making</h2>
+    <ul>
+      <li>I promise on my life your life Babaji and all Hindu Gods I will never bring up anything to do with the past this was a one time thing and if I ever do it again then you have every right to leave this marriage</li>
+      <li>I promise on my life your life Babaji and all Hindu Gods I will never disrespect you and hurt you and make you feel stressed if I ever do it again you have ever right to leave this marriage</li>
+      <li>I promise on my life your life Babaji and all Hindu Gods I will never change and I will always be the same person you fell in love with from day 1 till now till the day I die and be even more I will still tell everything and never hide anything from you and if I ever do it again then you have ever right to leave this marriage</li>
+      <li>I promise on my life your life Babaji and all Hindu Gods that I will think before I speak and calm myself down and take a moment to leave the call / listen to you when the call needs to be ended if I ever do it again then you have ever right to leave this marriage</li>
+    </ul>
+  </div>
+
+</div>
+
+<script>
+const layer = document.getElementById("float-layer");
+const emojis = ["❤️","💗","💖","💕","💞","💘","💓","💝","💟","💍","💎","🫶","💒","👑","💘","💞"];
+for(let i=0;i<90;i++){
+  const e=document.createElement("div");
+  e.className="float";
+  e.textContent=emojis[Math.floor(Math.random()*emojis.length)];
+  e.style.left=Math.random()*100+"vw";
+  e.style.fontSize=(16+Math.random()*30)+"px";
+  e.style.animationDuration=(8+Math.random()*20)+"s";
+  layer.appendChild(e);
+}
+
+const leftImages = [
+  "photos/left/left-1.jpg","photos/left/left-2.jpg","photos/left/left-3.jpg","photos/left/left-4.jpg",
+  "photos/left/left-5.jpg","photos/left/left-6.jpg","photos/left/left-7.jpg","photos/left/left-8.jpg",
+  "photos/left/left-9.jpg","photos/left/left-10.jpg","photos/left/left-11.jpg","photos/left/left-12.jpg",
+  "photos/left/left-13.jpg","photos/left/left-14.jpg","photos/left/left-15.jpg","photos/left/left-16.jpg"
+];
+
+const rightImages = [
+  "photos/right/right-1.png","photos/right/right-2.png","photos/right/right-3.png","photos/right/right-4.png",
+  "photos/right/right-5.png","photos/right/right-6.png","photos/right/right-7.png","photos/right/right-8.png",
+  "photos/right/right-9.png","photos/right/right-10.png","photos/right/right-11.png","photos/right/right-12.png",
+  "photos/right/right-13.jpg","photos/right/right-14.jpg","photos/right/right-15.jpg","photos/right/right-16.jpg"
+];
+
+function startSlideshow(imgEl, images, ms){
+  let i = 0;
+  imgEl.src = images[0];
+  setInterval(() => {
+    imgEl.style.opacity = "0";
+    setTimeout(() => {
+      i = (i + 1) % images.length;
+      imgEl.src = images[i];
+      imgEl.style.opacity = "1";
+    }, 420);
+  }, ms);
+}
+
+startSlideshow(document.getElementById("leftSlide"), leftImages, 3200);
+startSlideshow(document.getElementById("rightSlide"), rightImages, 3600);
+</script>
+
+</body>
+</html>
